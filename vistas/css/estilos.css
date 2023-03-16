@@ -1,0 +1,105 @@
+.titulo-form{
+	font-size: 20px;
+	padding: 0;
+	margin: 0;
+}
+
+.lbl-form{
+	font-size: 14px;
+	padding: 0;
+	margin: 0;
+}
+
+.btn-100{
+
+	display: flex;
+	justify-content: center;
+	column-gap: 10px;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+}
+
+.buscar-grupo{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 15px;
+}
+
+.btn-gris{
+	background: #e9ecef;
+	color: #495057;
+}
+
+.icono-input{
+	display: flex;
+	align-items: center;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.btn-bottom{
+	display: flex;
+	align-items: center;
+	column-gap: 10px;
+}
+
+
+@media(max-width: 992px){
+	.btn-bottom{
+		justify-content: flex-end;
+	}
+}
+
+
+/* seccion para input file */
+.invoiceBox > input {
+  display: none;
+}
+.invoiceBox label {
+	display: block;
+}
+.invoiceBox{
+	width: 150px;
+}
+
+.invoiceBox div{
+	width: 100%;
+}
+
+@media(max-width: 576px){
+	.invoiceBox{
+		width: 50%;
+	}	
+}
+
+.centrar{
+	display: flex;
+	justify-content: center;
+}
+
+.iconoHistoria{
+	color: var(--white);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	font-size: 15px;
+}
+
+.rutaTitulo{
+	display: flex;
+	justify-content: space-between;
+
+}
+
+.rutaTitulo span{
+	color: var(--primary);
+}
+
+.rutaTitulo div{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
